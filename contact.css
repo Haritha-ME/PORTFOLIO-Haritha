@@ -1,0 +1,134 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family:Arial Narrow;
+}
+
+header{
+	background-image: url("2.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ 
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+    text-decoration-thickness:2px;
+	color: #c0c0c0;
+	padding: 0 20px;
+	border: 2px solid transparent;
+	transition: 0.6s ease;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    transform: translate(-10%,20%);
+}
+
+ul li a:hover{
+	color:rgb(204, 47, 47);
+    border: 2px solid silver;
+}
+
+ul li.active a{
+	color: red;
+    border: 2px solid silver;
+}
+.main{
+	max-width: 1200px;
+	margin:auto;
+}
+.title{
+	position:absolute;
+	color:white;
+	top: 15%;
+	left: 10%;
+    font-size:10px;
+    border: 1px solid silver;
+}
+.center{
+    position:absolute;
+    color:white;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius:10px;
+}
+.center h1{
+    text-align:center;
+    color:white;
+    border : 2px solid silver;
+   
+}
+.center form{
+   padding:0 40px 20px;
+
+}
+
+form .textfield{
+    position:relative;
+    margin:30px 0 20px;
+    color:white;
+    border-bottom:2px solid white;
+    background:white;
+}
+.textfield:hover{
+  color:rgba(177, 173, 116, 0.911);
+  border-bottom: 2px white;
+  transition:0.5s;
+}
+.textfield input{
+    background:silver;
+    border:1px;
+    width:100%;
+    height:40px;
+    font-size:16px;
+
+}
+.forpass a{
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+.forpass a:hover{
+    text-decoration: underline;
+    color: white;
+    transition:0.5s;
+}
+input[type="submit"] {
+   margin:15px 15px 15px 0;
+   width:100%;
+   height: 40px;
+   border-radius:25px;
+   border-color:rgba(213, 216, 213, 0.438);
+   background:silver;
+   font-size:20px;
+   font-weight:700;
+   cursor:pointer;
+}
+input[type="submit"]:hover{
+border:2px solid yellow;
+background:rgba(212, 209, 34, 0.418);
+}
+.signup{
+    color: rgb(184, 112, 18);
+    font-size:16px;
+    text-align:center;
+    padding: 10px 10px;
+  }
+  .signup a{
+      color:rgb(192, 164, 6);
+      text-decoration: none;
+  }
+  .signup a:hover{
+      text-decoration:underline;
+  }
