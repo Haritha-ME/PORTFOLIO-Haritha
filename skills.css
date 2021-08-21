@@ -28,7 +28,6 @@ ul li a{
 	padding: 0 20px;
 	border: 2px solid transparent;
 	transition: 0.6s ease;
-    font-size:20px;
     font-family:'Times New Roman', Times, serif;
     transform: translate(-10%,20%);
 }
